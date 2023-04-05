@@ -1,0 +1,40 @@
+# deny all POST requests
+<Limit POST> 
+Order Deny,Allow
+Deny from all
+</Limit>
+
+# work around old URLs and broken requests
+RedirectPermanent /cirp/ http://www.cirp.org/
+RedirectPermanent /cirp   http://www.cirp.org/
+RedirectPermanent /circ/  http://www.cirp.org/
+RedirectPermanent /circ   http://www.cirp.org/
+RedirectPermanent /CIRC/  http://www.cirp.org/
+RedirectPermanent /CIRC   http://www.cirp.org/
+RedirectPermanent /CIRP.html http://www.cirp.org/
+RedirectPermanent /CIRP/nocirc.html http://www.cirp.org/
+RedirectPermanent /CIRP/library.html http://www.cirp.org/library/
+RedirectPermanent /CIRP/whycirc.html http://www.cirp.org/pages/whycirc.html
+RedirectPermanent /CIRP/nocirc.html>Circumcison http://www.cirp.org/
+RedirectPermanent /CIRP/female.html http://www.cirp.org/pages/female.html
+RedirectPermanent /CIRP/restore.html http://www.cirp.org/pages/restore.html
+RedirectPermanent /CIRP/med http://www.cirp.org/library/
+RedirectPermanent /CIRP/med/ http://www.cirp.org/library/
+RedirectPermanent /CIRP/ http://www.cirp.org/
+RedirectPermanent /CIRP http://www.cirp.org/
+RedirectPermanent /CIRP/] http://www.cirp.org/
+RedirectPermanent /CIRP/) http://www.cirp.org/
+RedirectPermanent /nocirc.html http://www.cirp.org/
+RedirectPermanent /nocirc/ http://www.cirp.org/
+RedirectPermanent /nocirc http://www.cirp.org/
+RedirectPermanent /nocirc/anat http://www.cirp.org/pages/anat/
+RedirectPermanent /anat http://www.cirp.org/pages/anat/
+RedirectPermanent nocirc.html http://www.cirp.org/
+RedirectPermanent /med/vincenzi.html http://www.cirp.org/library/disease/HIV/vincenzi/
+RedirectPermanent /treatment http://www.cirp.org/library/treatment/
+RedirectPermanent /pain/williamson http://www.cirp.org/library/pain/williamson
+RedirectPermanent /price2/ http://www.cirp.org/library/legal/price2/
+RedirectPermanent /TR/xhtml1/.DTD/ http://www.cirp.org/.DTD/
+RedirectPermanent /nrc/ http://childrightsnurses.org/
+RedirectPermanent /nrc http://childrightsnurses.org/
+RedirectPermanent /portal http://www.cirp.org/portal/

@@ -1,0 +1,8 @@
+AddDescription "American Academy of Pediatrics" aap
+AddDescription "Canadian Medical Association" cmaj
+AddDescription "Canadian Paediatric Society" cps1975
+AddDescription "Canadian Paediatric Society" cps1996
+AddDescription "Canadian Paediatric Society" cps2
+AddDescription "Australian College of Paediatrics" acp
+Redirect /library/statements/cmaj http://www.cirp.org/library/general/lebourdais1/
+Redirect /library/statements/acp/ http://www.cirp.org/library/statements/acp1983/

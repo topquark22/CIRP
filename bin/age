@@ -1,0 +1,55 @@
+#!/bin/sh
+#
+# $RCSfile$
+# $Revision: 2429 $
+# $Date: 2005-02-06 17:51:21 -0500 (Sun, 06 Feb 2005) $
+# $Author: gtf $
+# $Locker$
+#
+# NOTE: This file comes from /usr/src/cs/age on cs-sun-fsa.cpsc.ucalgary.ca
+#
+
+PATH=/usr/ucb:/usr/bin:/bin
+export PATH
+trap '  echo 1>&2 "$0: Interrupt!"; exit 15' 1 2 3 15
+if [ $# -lt 2 -o $# -gt 3 ]; then
+	echo 1>&2 "Usage: $0 logfile keep [ dir ]"
+	exit 1
+fi
+log=$1
+max=$2
+if [ $# != 3 ]; then
+	dir=`expr $log : '\(.*\)/.*'`
+	if [ -z "$dir" ]; then dir="."; fi
+else
+	dir=$3;
+fi
+if [ ! -d $dir ]; then
+	echo 1>&2 "$0: $dir: Not a directory"
+	exit 1
+fi
+if [ ! -f $log ]; then
+	echo 1>&2 "$0: $log: No such file or directory"
+	exit 1
+fi
+tmp="${dir}/`basename $log`"
+old=`expr $max - 1`
+if [ $? -eq 2 ]; then
+	echo 1>&2 "$0: $max: Not an integer"
+	exit 1
+fi
+if [ $max -gt 0 ]; then
+	while [ $old -ge 0 ]; do
+		new=`expr $old - 1`
+		if [ $old -gt 0 ]; then
+			if [ -f $tmp.$new ]; then
+				mv $tmp.$new $tmp.$old
+			fi
+		else
+			cp -p $log $tmp.$old
+		fi
+		old=$new
+	done
+fi
+cp /dev/null $log
+exit 0

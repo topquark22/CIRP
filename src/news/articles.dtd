@@ -1,0 +1,22 @@
+<!ELEMENT articles (article)*>
+<!ELEMENT article ((date | dateStr), language?, keywords?, author?, source, spec?, place?, country?, title, subtitle?, url)>
+<!ATTLIST article
+  id CDATA #REQUIRED
+  language CDATA #IMPLIED
+>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT dateStr (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT keywords (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT spec (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST source
+  isBureau CDATA #IMPLIED
+>
+

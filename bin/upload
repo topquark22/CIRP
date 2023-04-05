@@ -1,0 +1,113 @@
+#!/bin/sh
+#
+# upload (c) Geoffrey T. Falk, November 1998
+# Upload changed files via rcp automatically
+# Requires gnutar for incremental backups.
+#
+# USAGE: upload [user@]remote.host local_path [remote_path]
+# If remote_path is omitted, defaults to local_path
+# If user is omitted, defaults to local username
+
+
+# Need to clean up lockfiles, etc. on abort
+trap abort 2
+
+REMOTE_TAR=/usr/bin/tar
+
+
+# parse arguments (two usage forms)
+if [ $# -ne 2 -a $# -ne 3 ]; then
+  echo "usage: $0 [user@]remote.host local_dir [remote_dir]" 1>&2
+  exit 2
+fi
+
+cleanup() {
+  rm -f .gin.old .lock "$TARBALL"
+}
+
+abort() {
+  echo "$@" 1>&2
+  if [ -f .gin.old ]; then
+    mv -f .gin.old .gin
+  fi
+  cleanup
+  exit 1
+}
+
+local_dir="$2"
+
+if [ ! -d "$local_dir" ]; then
+  echo "$local_dir: Invalid directory"	1>&2
+  exit 2
+fi
+
+# extract remote user, host if using "@" notation
+arg1=`echo $1 | awk -F@ '{printf "%s", $2}'`
+
+if [ -z "$arg1" ]; then		# no "@" supplied
+  remote_user="$USER"
+  remote_host="$1"
+else
+  remote_user=`echo $1 | awk -F@ '{printf "%s", $1}'`
+  remote_host="$arg1"
+fi
+
+if [ $# -eq 3 ]; then
+  remote_dir="$3"
+else
+  remote_dir="$2"
+fi
+
+TARBALL="/tmp/`echo $local_dir | tr /~ __`_$$.tar.gz"
+REMOTE_TARBALL="~${remote_user}/tmp/`echo $remote_dir | tr /~ __`.tar.gz"
+# (remote user must have a "tmp" directory in his home directory)
+
+cd "$local_dir"
+
+# Minor bug: There is a race condition between the following if/else clauses,
+# if two copies of upload are run simultaneously. It is not worthwhile to
+# fix this.
+if [ -f .lock ]; then
+  echo -n "$local_dir locked by PID "	1>&2
+  cat .lock				1>&2
+  echo "; aborting"			1>&2
+  abort
+else
+  echo -n $$ > .lock
+fi
+
+# files/directories not to include in the transfer (must exist)
+if [ ! -f .exclude ]; then
+  cat > .exclude << EOF
+.exclude
+.lock
+EOF
+fi
+
+# GNU-format incremental information file stored at $local_dir/.gin
+if [ ! -f .gin ]; then
+  touch .gin
+fi
+
+cp -p .gin .gin.old	# preserve incremental data if upload aborts
+
+# create the tarfile of changed files
+tar -cvzf "$TARBALL" -g .gin -X .exclude .
+
+# blast tarfile to remote machine
+scp "$TARBALL" "$remote_user"@"$remote_host":"$REMOTE_TARBALL"
+
+if [ $? != 0 ]; then
+  abort "Upload failed"
+fi
+
+# extract tarfile on remote machine
+ssh "$remote_host" -l "$remote_user" \
+	"${REMOTE_TAR}" -xzf "$REMOTE_TARBALL" -C "$remote_dir"
+
+if [ $? != 0 ]; then
+  abort "Remote extraction failed"
+fi
+
+cleanup
+exit 0

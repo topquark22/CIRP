@@ -1,0 +1,4 @@
+<!ELEMENT countries (country)*>
+<!ELEMENT country (country-name, country-code)>
+<!ELEMENT country-name (#PCDATA)>
+<!ELEMENT country-code (#PCDATA)>

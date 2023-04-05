@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layout>
+
+  <head>
+
+    <title>CIRP-- Circumcision News</title>
+
+    <description>Index page of news reports concerning circumcision</description>
+
+    <keywords>circumcision, male circumcision, infants, infant circumcision,
+    neonatal circumcision, neonates, neonate, newborn, boys, South Africa, infants,
+    MGM, news, reports, newspapers, magazines, media, litigation, court cases,
+    courts, court, court rulings, damage awards</keywords>
+
+    <version>$Id: index.xml 3568 2017-02-01 05:07:05Z topquark22 $</version>
+
+    <site-url>http://www.cirp.org</site-url>
+
+    <page-url>http://www.cirp.org/news</page-url>
+
+    <css-url>http://www.cirp.org/news/style.css</css-url>
+
+  </head>
+
+  <body>
+    <div class="corpus">
+      <a href="http://www.cirp.org/"><img alt="CIRP logo" src="/gif/CIRP.gif" /></a><br />
+
+      <h1>Circumcision in the News</h1>
+      <hr size="1" />
+
+      <h3>Other websites with news about circumcision:</h3>
+
+      <ul>
+        <li><a href="http://www.infocirc.org/news.htm"
+        target="_blank">In The News: Circumcision Information
+        Resource Centre</a></li>
+
+        <li><a
+        href="http://dmoz.org/Health/Child_Health/Circumcision/News/"
+         target="_blank">Open Directory: Circumcision In the
+        News</a></li>
+
+        <li><a href="http://www.circumstitions.com/News1.html"
+        target="_blank">Intactivism News</a> (has several pages to
+        click through, from older to most recent stories)</li>
+      </ul>
+      <hr size="1" />
+
+      <h3>News reports:</h3>
+
+      <p class="explain">Stories are listed in approximate order
+      of publication, with the most recent listed first.</p>
+
+      <article refid="kenyandailypost2013-09-11" />
+      <article refid="ap2012-04-16" />
+      <article refid="abc2011-05-06" />
+      <article refid="londontimes2009-02-13" />
+      <article refid="stamfordadvocate2008-12-22" />
+      <article refid="ynet2008-12-19" />
+      <article refid="politiken2008-11-17" />
+      <article refid="medicalnewstoday2008-10-09" />
+      <article refid="theoregonian2008-10-06" />
+      <article refid="sunstar2008-08-05" />
+      <article refid="themonitor2008-08-01" />
+      <article refid="YLEnews2008-07-31" />
+      <article refid="ansa2008-07-22" />
+      <article refid="theoregonian2008-07-17A" />
+      <article refid="pretorianews2008-07-02" />
+      <article refid="capeargus2008-07-19" />
+      <article refid="capeargus2008-07-18" />
+      <article refid="theoregonian2008-07-18" />
+      <article refid="thestar2008-07-11" />
+      <article refid="themercury2008-07-08" />
+      <article refid="pravda2008-07-02" />
+      <article refid="thestar2008-07-01" />
+      <article refid="capetimes2008-06-30" />
+      <article refid="thestar2008-06-26" />
+      <article refid="sapa2008-06-23" />
+      <article refid="dailydispatch2008-06-16" />
+      <article refid="angolapress2008-06-14" />
+      <article refid="morgenpost2008-06-14" />
+      <article refid="granthamjournal2008-06-11" />
+      <article refid="medicalnewstoday2008-06-09" />
+      <article refid="theoregonian2008-05-16" />
+      <article refid="prweb2008-05-06" />
+      <article refid="stlouispostdispatch2008-04-23" />
+      <article refid="wilmingtonstar2008-02-09" />
+      <article refid="times-colonist2008-01-31" />
+      <article refid="salemnews2008-01-15" />
+      <article refid="newvision2007-12-18" />
+      <article refid="thenation2007-12-14" />
+      <article refid="abc2007-12-09" />
+      <article refid="abc2007-12-08" />
+      <article refid="sapa2007-12-03" />
+      <article refid="iol2007-12-02" />
+      <article refid="theenquirer2007-11-30" />
+      <article refid="expressindia2007-11-20" />
+
+      <thread id="OregonCase2007">
+        <description>Oregon circumcision case pits parents against each other:
+           Child's rights get lost in the shuffle</description>
+        <article refid="opbnews2007-11-07" />
+        <article refid="newyorksun2007-11-07" />
+        <article refid="opbnews2007-11-05" />
+        <article refid="oregonstatesmen2007-11-06" />
+      </thread>
+
+      <article refid="theadvertiser2007-11-12" />
+      <article refid="newvision2007-11-07" />
+      <article refid="newvision2007-11-05" />
+      <article refid="sundaytimes2007-11-04" />
+      <article refid="themonitor2007-10-31" />
+      <article refid="time2007-11-02" />
+      <article refid="time2007-11-02b" />
+      <article refid="scmp2007-10-12" />
+      <article refid="reuters2007-10-03" />
+      <article refid="newyorksun2007-09-18" />
+      <article refid="forward2007-08-15" />
+      <article refid="herald-sun2007-08-12" />
+      <article refid="forward2007-07-18" />
+      <article refid="earthtimes2007-07-18" />
+      <article refid="SFChronicle2007-07-15" />
+      <article refid="houstonpress2007-07-12a" />
+      <article refid="houstonpress2007-07-12" />
+      <article refid="theledger2007-07-08" />
+      <article refid="nst2007-07-09" />
+      <article refid="singapore2007-06-25" />
+      <article refid="SFChronicle2007-06-21" />
+      <article refid="canwest2007-06-14" />
+      <article refid="newsweek2007-05-07" />
+      <article refid="theoregonian2007-04-27" />
+      <article refid="ohmynews2007-02-09" />
+      <article refid="vivirlatino2007-04-03" />
+      <article refid="2007-03-19doc" />
+      <article refid="healthday2007-03-06" />
+
+      <thread id="LondonDeath2007">
+        <description>Baby dies in London after ritual circumcision</description>
+        <article refid="theguardian2007-02-17"/>
+        <article refid="dailytelegraph2007-02-16"/>
+        <article refid="themirror2007-02-15"/>
+      </thread>
+      
+      <article refid="iht2007-03-06" />
+      <article refid="cbc-news2007-01-22"/>
+<!--      <article refid="dailynebraskan2007-01-12"/> procirc -->
+      <article refid="chicagotribune2007-01-09"/>
+      <article refid="newvision2007-01-09"/>
+      <article refid="sabc2007-01-02"/>
+      <article refid="medicalnewstoday2007-01-02"/>
+      <article refid="capeargus2006-12-30"/>
+      <article refid="timesofzambia2006-12-29"/>
+      <article refid="espanol2006-12-14"/>
+      <article refid="ajc2006-11-01"/>
+      <article refid="atlantajc2006-10-22"/>
+      <article refid="reuters2006-10-25"/>
+      <article refid="chicagotribune2006-10-24"/>
+      <article refid="chicagosun-times2006-10-24"/>
+      <article refid="sapa2006-10-17"/>
+      <article refid="corriere2006-10-13"/>
+      <article refid="jpost2006-10-09"/>
+      <article refid="thestar2006-10-05"/>
+      <article refid="timesofmalta2006-09-07"/>
+      <article refid="dispatch2006-09-04"/>
+      <article refid="vancouversun2006-08-22"/>
+      <article refid="doctorsguidedispatch2006-08-17"/>
+      <article refid="sun-times2006-08-16"/>
+      <article refid="star-tribune2006-08-15"/>
+      <article refid="helsinginsanomat2006-08-07"/>
+      <article refid="torontolife2006-08"/>
+      <article refid="moroccotimes2006-07-30"/>
+      <article refid="thetyee2006-07-25"/>
+      <article refid="vancouverprovince2006-07-24"/>
+      <article refid="winnipegfreepress2006-07-18"/>
+      <article refid="nrm2006-06-30"/>
+
+        <!-- pro-circ -->
+      <!-- <article refid="mailguardian2006-07-14"/> -->
+
+      <article refid="thestar2006-07-10"/>
+      <article refid="thestar2006-07-07"/>
+      <article refid="capetimes2006-07-05"/>
+      <article refid="iol2006-07-01a"/>
+      <article refid="iol2006-06-30"/>
+      <article refid="iol2006-06-29"/>
+      <article refid="iol2006-06-28a"/>
+      <article refid="news24com2006-06-27"/>
+      <article refid="dailydispatch2006-06-26"/>
+
+      <thread id="ChicagoTrial">
+        <description>Father, mother fight in court over circumcision of son in Chicago</description>
+        <article refid="chicagosun-times2006-06-15"/>
+        <article refid="chicagotribune2006-06-14B"/>
+        <article refid="chicagotribune2006-06-14A"/>
+        <article refid="chicagotribune2006-06-13"/>
+      </thread>
+
+      <article refid="halifaxdailynews2006-03-25"/>
+      <article refid="2006-03-23montrealgazette"/>
+      <article refid="chicagotribune2006-02-17"/>
+      <article refid="NYTimesMagazine02-05-06"/>
+      <article refid="columbusdispatch01-15-06"/>
+      <article refid="theaustralian01-12-06"/>
+      <article refid="thejournalnews12-17-05"/>
+      <article refid="edmontonjournal12-14-05"/>
+      <article refid="dailydispatch12-13-05"/>
+      <article refid="stats11-30-05"/>
+      <article refid="sapa11-28-05"/>
+      <article refid="capetimes11-14-05"/>
+      <article refid="sabc11-14-05"/>
+      <article refid="freelance-star11-13-05"/>
+      <article refid="sapa11-09-05"/>
+      <article refid="guardian10-29-05"/>
+      <article refid="dailydispatch10-20-05"/>
+      <article refid="dailynews10-12-05"/>
+      <article refid="cbc2005-11-21"/>
+      <article refid="canadacom11-18-05"/>
+      <article refid="thelocal10-05-2005"/>
+      <article refid="mainichidailynews09-21-05"/>
+      <article refid="edmontonjournal09-12-05"/>
+      <article refid="thenation09-02-05"/>
+      <article refid="star-tribune09-01-05"/>
+      <article refid="tempo08-21-05"/>
+      <article refid="sapa07-19-05"/>
+      <article refid="unirin07-07-05"/>
+      <article refid="theindependent06-27-05"/>
+      <article refid="sapa07-05-05"/>
+      <article refid="sapa06-27-05a"/>
+      <article refid="sapa06-27-05"/>
+      <article refid="mailandguardian06-27-05"/>
+      <article refid="mailandguardian06-26-05"/>
+      <article refid="dailynews06-24-05"/>
+      <article refid="dailydispatch06-24-05"/>
+      <article refid="sapa06-24-05"/>
+      <article refid="sapa06-23-05"/>
+      <article refid="sapa06-18-05"/>
+      <article refid="pretorianews06-16-05"/>
+      <article refid="morganhilltimes06-14-05"/>
+      <article refid="alertnet05-26-05"/>
+      <article refid="theforum05-22-05"/>
+      <article refid="surreyonline05-11-05"/>
+      <article refid="seattlepostintelligencer05-10-05"/>
+      <article refid="thescotsman05-03-05"/>
+      <article refid="roanoketimes04-23-05"/>
+      <article refid="denverpost04-07-05"/>
+      <article refid="newhavenregister03-24-05"/>
+      <article refid="sunstar03-21-05"/>
+      <article refid="dailyinquirer03-20-05"/>
+<!--  <article refid="afp03-19-05"/> -->
+      <article refid="windsorstar03-19-05"/>
+      <article refid="telegraphjournal03-16-05"/>
+      <article refid="idahostatesman03-12-05"/>
+      <article refid="bostonchannel03-08-05"/>
+      <article refid="haaretz03-04-05"/>
+      <article refid="thejournalnews02-16-05"/>
+      <article refid="inlandvalleynews02-14-05"/>
+      <article refid="newkerala02-11-05"/>
+      <article refid="jewishweek02-10-05"/>
+      <article refid="journalnews02-03-05"/>
+      <article refid="nydailynews02-02-05"/>
+      <article refid="deutschewelle01-28-05"/>
+      <article refid="sabc01-24-05"/>
+      <article refid="eveningmail01-05-05"/>
+      <article refid="dailydispatch01-10-05"/>
+      <article refid="mailandguardian01-03-05"/>
+      <article refid="kbc12-29-04"/>
+      <article refid="SABCnews12-17-04"/>
+      <article refid="canadianpress12-17-04"/>
+      <article refid="haaretz12-14-04"/>
+      <article refid="dailydispatch11-30-04"/>
+      <article refid="dailydispatch11-26-04"/>
+      <article refid="radionetherlands10-07-04"/>
+      <article refid="radionetherlands10-04-04"/>
+      <article refid="io09-27-04"/>
+
+      <thread id="HuntingKnife">
+        <description>
+          Obsessed man circumcises 8-year-old son with hunting knife
+        </description>
+        <article refid="thecolumbian12-16-04"/>
+        <article refid="thecolumbian12-08-04"/>
+        <article refid="theoregonian11-05-04"/>
+        <article refid="thecolumbian10-13-04"/>
+        <article refid="thecolumbian09-29-04"/>
+        <article refid="thecolumbian09-18-04"/>
+        <article refid="thecolumbian09-11-04"/>
+        <article refid="thecolumbian09-08-04"/>
+        <article refid="KPTV09-08-04"/>
+        <article refid="thecolumbian09-05-04"/>
+      </thread>
+
+      <article refid="heraldsun08-21-04"/>
+
+      <thread id="Azar">
+        <description>
+          Camille Azar's fight to save her son from an unwanted circumcision
+        </description>
+        <article refid="kansascitystar08-10-04"/>
+        <article refid="theexaminer08-10-04"/>
+        <article refid="theexaminer07-15-04"/>
+        <article refid="kansascitystar07-15-04"/>
+      </thread>
+
+      <article refid="sapa07-28-04"/>
+      <article refid="thescotsman07-12-04"/>
+      <article refid="sapa07-08-04"/>
+      <article refid="medicalpost07-06-04"/>
+      <article refid="vancouvercourier07-05-04"/>
+      <article refid="smh07-01-04"/>
+      <article refid="sabc06-26-04"/>
+      <article refid="sabc05-24-04"/>
+      <article refid="theguardian05-12-04"/>
+      <article refid="torontostar05-11-04"/>
+      <article refid="winnipegsun05-10-04"/>
+      <article refid="smh04-13-04"/>
+      <article refid="khaleejtimes03-19-04"/>
+      <article refid="oaklandtribune3-14-04"/>
+      <article refid="thescotsman03-03-04"/>
+      <article refid="ajc03-02-04"/>
+      <article refid="news24com03-02-04"/>
+      <article refid="mlw02-23-04"/>
+      <article refid="timescolonist02-20-04"/>
+      <article refid="helsinginsanomat02-13-04"/>
+
+      <thread id="Penticton">
+        <description>Canada takes another look at circumcision after death of baby.</description>
+        <article refid="theprovince02-13-04"/>
+        <article refid="cbc02-11-04a"/>
+        <article refid="cbc02-11-04"/>
+        <article refid="cmaj2002-10-01"/>
+        <article refid="freepress09-05-02"/>
+        <article refid="cmaj2003-09-03"/>
+        <article refid="thetimescolonist09-03-02"/>
+        <article refid="thewestern08-31-02"/>
+        <article refid="nationalpost08-30-02a"/>
+        <article refid="nationalpost08-30-02"/>
+        <article refid="theprovince08-29-02"/>
+      </thread>
+
+      <article refid="UNnetwork02-06-04"/>
+      <article refid="cnn01-27-04"/>
+
+      <article refid="waterfordnews01-23-04"/>
+      <article refid="news2401-22-04"/>
+      <article refid="smh01-13-04"/>
+      <article refid="smh01-10-04a"/>
+      <article refid="smh01-10-04"/>
+      <article refid="vanguard01-03-04"/>
+      <article refid="nationalpost12-30-03"/>
+      <article refid="news2412-29-03"/>
+      <article refid="iol12-19-03"/>
+      <article refid="news2412-18-03"/>
+      <article refid="BBCnews12-17-03"/>
+      <article refid="aftenposten12-10-03"/>
+      <article refid="lawyersweekly12-08-03"/>
+      <article refid="mailandguardian12-08-03"/>
+      <article refid="thenation12-06-03"/>
+      <article refid="JTAnews12-06-03"/>
+      <article refid="bornradet12-04-03"/>
+      <article refid="frontpage11-25-03"/>
+      <article refid="sydneymorningherald11-06-03"/>
+      <article refid="lemonde10-28-03"/>
+      <article refid="thestar10-23-03"/>
+      <article refid="news24-10-15-03"/>
+      <article refid="bbcnews10-22-03"/>
+      <article refid="torontostar10-18-03"/>
+      <article refid="newvision10-14-03"/>
+      <article refid="reuters10-13-03"/>
+      <article refid="newsday10-09-03"/>
+      <article refid="aljazeera10-05-03"/>
+      <article refid="msnbc10-01-03"/>
+      <article refid="mensjournal2003-09"/>
+
+      <thread id="CallisOsaghae">
+        <description>The death of baby Callis Osaghae in Ireland</description>
+        <article refid="irelandcom10-07-05"/>
+        <article refid="munsterexpress01-16-04"/>
+        <article refid="onlineie08-20-03"/>
+        <article refid="irishtimes08-21-03"/>
+        <article refid="irishexaminer08-21-03a"/>
+        <article refid="irishexaminer08-21-03b"/>
+        <article refid="munsterexpress08-23-03"/>
+        <article refid="eirecomnet08-23-03"/>
+      </thread>
+
+      <article refid="iafricacom08-15-03"/>
+      <article refid="capeargus08-15-03"/>
+      <article refid="miamiherald08-02-03"/>
+      <article refid="iowacitypresscitizen07-28-03"/>
+      <article refid="mrcsa07-18-03"/>
+      <article refid="quadcitytimes07-18-03"/>
+      <article refid="ajc07-18-03"/>
+      <article refid="news24_07-18-03"/>
+      <article refid="theadvocate07-17-03"/>
+      <article refid="iol07-22-03"/>
+      <article refid="mercurynews07-12-03"/>
+      <article refid="seattletimes07-09-03"/>
+      <article refid="theforum07-09-03"/>
+      <article refid="miamiherald07-03-03"/>
+      <article refid="stpetersburgtimes07-01-03"/>
+      <article refid="dagsavisen06-26-03"/>
+      <article refid="sundaytimes06-22-03"/>
+      <article refid="thedispatch06-22-03"/>
+      <article refid="stpetersburgtimes06-22-03"/>
+      <article refid="thespectrum06-11-03"/>
+      <article refid="thefreeman06-01-03"/>
+      <article refid="newvision05-28-03"/>
+      <article refid="manilatimes05-24-03"/>
+      <article refid="masslawweekly05-19-03"/>
+      <article refid="theadvertiser05-19-03"/>
+      <article refid="seattlepostintelligencer05-06-03"/>
+      <article refid="thenation05-01-02"/>
+      <article refid="eastafricanstandard05-01-03"/>
+      <article refid="newscientist2003-04-29"/>
+      <article refid="mndnewswire04-29-03"/>
+      <article refid="saltlaketribune04-17-03"/>
+      <article refid="medicalobserver04-16-03"/>
+      <article refid="helsinginsanomat04-09-03"/>
+      <article refid="reuters04-04-03"/>
+      <article refid="maitlandmercury04-02-03"/>
+      <article refid="irinnews03-28-03"/>
+      <article refid="helsinginsanomat03-24-03"/>
+      <article refid="SFchronicle03-09-03"/>
+      <article refid="citypages03-05-03"/>
+
+      <thread id="US-HC-Utah">
+        <description>Healthcare defunding in Utah</description>
+        <article refid="saltlaketribune03-08-03"/>
+        <article refid="saltlaketribune02-26-03"/>
+      </thread>
+
+      <article refid="morningherald02-17-03"/>
+      <article refid="theage02-16-03"/>
+
+      <thread id="Flatt-Kantak">
+        <description>The Flatt v. Kantak trial over lack of informed consent for an
+          unwanted circumcision in the U.S.</description>
+        <article refid="theforum09-04-04"/>
+        <article refid="theforum05-13-04"/>
+        <article refid="theforum05-12-04"/>
+        <article refid="theforum02-22-03"/>
+        <article refid="theforum02-15-03"/>
+        <article refid="theforum02-14-03"/>
+        <article refid="theforum02-13-03"/>
+        <article refid="theforum02-12-03"/>
+        <article refid="theforum02-11-03"/>
+        <article refid="theforum02-08-03"/>
+        <article refid="theforum02-07-03"/>
+        <article refid="theforum02-06-03"/>
+        <article refid="theforum02-05-03"/>
+        <article refid="theforum02-04-03"/>
+        <article refid="newyorktimes01-23-03"/>
+        <article refid="theforum12-19-02"/>
+        <article refid="theforum12-18-02"/>
+        <article refid="mensnewsdaily08-01-02"/>
+      </thread>
+
+      <article refid="saltlaketribune02-14-03"/>
+      <article refid="philippinestar02-11-03"/>
+      <article refid="themercury01-21-03"/>
+      <article refid="thetimes01-13-03"/>
+      <article refid="thenation12-26-02"/>
+      <article refid="losangelestimes12-24-02"/>
+      <article refid="cmb12-23-02"/>
+      <article refid="themissoulian12-21-02"/>
+      <article refid="thedailydispatch12-20-02"/>
+      <article refid="thedailydispatch12-19-02"/>
+      <article refid="sapa12-16-02"/>
+      <article refid="businessday12-07-02"/>
+      <article refid="dailyiowan12-05-02"/>
+      <article refid="citypress11-23-02"/>
+      <article refid="dailydispatch11-22-02"/>
+      <article refid="therecord11-22-02"/>
+      <article refid="jerusalempost11-21-02"/>
+      <article refid="harvardlawbulletin-fall-02"/>
+      <article refid="thecouriermail10-10-02"/>
+      <article refid="charlotteobserver09-21-02"/>
+      <article refid="dominionpost08-30-02"/>
+      <article refid="africaneye08-27-02"/>
+      <article refid="thenation08-24-02"/>
+      <article refid="reuters08-23-02"/>
+      <article refid="thenation08-23-02"/>
+      <article refid="detroitfreepress08-23-02"/>
+      <article refid="thedailydispatch08-22-02"/>
+      <article refid="sundaytimes08-18-02"/>
+      <article refid="heraldsun08-15-02"/>
+      <article refid="eastafricanstandard08-15-02"/>
+      <article refid="thesundaymail08-11-02"/>
+      <article refid="news-mail08-10-02"/>
+      <article refid="associatedpress08-07-02"/>
+      <article refid="newvision08-07-02"/>
+      <article refid="nzcity08-07-02"/>
+      <article refid="nzherald08-06-02"/>
+      <article refid="foxnews08-06-02"/>
+      <article refid="newvision07-30-02"/>
+      <article refid="columbiamissourian07-25-02"/>
+      <article refid="reuters07-23-02"/>
+<!--  <article refid="afp07-09-02"/> -->
+      <article refid="nationmagazine07-05-02"/>
+      <article refid="sanfranciscochronicle07-05-02"/>
+
+      <thread id="SouthAfrica1">
+        <description>Circumcision horror in South Africa: brutality, murder,
+          violence, and circumcision.</description>
+        <article refid="africaneye08-01-02"/>
+        <article refid="thestar07-16-02"/>
+        <article refid="natalwitness07-15-02"/>
+        <article refid="businessday07-15-02"/>
+        <article refid="citypress07-13-02"/>
+        <article refid="timesofindia07-05-02"/>
+        <article refid="theguardian07-04-02"/>
+        <article refid="sapa07-04-02"/>
+        <article refid="africaneye07-03-02"/>
+        <article refid="sapa07-03-02"/>
+        <article refid="newzealandherald07-03-02"/>
+        <article refid="sapa07-02-02a"/>
+        <article refid="sapa07-02-02"/>
+        <article refid="natalwitness07-01-02"/>
+        <article refid="thestar06-30-02"/>
+        <article refid="sapa06-28-02"/>
+        <article refid="saturdaystar06-28-02"/>
+        <article refid="sapa06-26-02"/>
+        <article refid="bbc06-26-02"/>
+        <article refid="natalwitness06-26-02"/>
+        <article refid="sapa06-26-02a"/>
+        <article refid="sapa06-25-02"/>
+      </thread>
+
+      <article refid="eastafricanstandard06-24-02"/>
+      <article refid="washingtonpost06-23-02"/>
+      <article refid="charlotteobserver06-18-02"/>
+      <article refid="thetribune06-14-02"/>
+      <article refid="canberratimes06-14-02"/>
+      <article refid="bostonglobe06-14-02"/>
+      <article refid="satimes06-12-02"/>
+      <article refid="independentweekly06-12-02"/>
+      <article refid="bergenrecord06-09-02"/>
+      <article refid="sapa06-07-02"/>
+      <article refid="sapa05-31-02"/>
+      <article refid="manilabulletin05-28-02"/>
+      <article refid="allafrica05-23-02"/>
+      <article refid="arizonastar05-18-02"/>
+      <article refid="theindependent05-17-02"/>
+      <article refid="medicalpost05-14-02"/>
+      <article refid="norwaypost05-14-02"/>
+      <article refid="arizonadailysun05-10-02"/>
+      <article refid="ncopenletter05-08-02"/>
+      <article refid="reuters05-07-02"/>
+      <article refid="reuters04-09-02"/>
+      <article refid="canberratimes03-31-02"/>
+      <article refid="medicalpost03-18-02"/>
+      <article refid="reuters03-08-02"/>
+      <article refid="canoe03-04-02"/>
+      <article refid="digitalchosun02-26-02"/>
+      <article refid="2002-02-21reginaleaderpost"/>
+      <article refid="nationalpost02-16-02"/>
+      <article refid="torontosun02-15-02"/>
+      <article refid="theledger02-06-02"/>
+      <article refid="theage02-04-02"/>
+      <article refid="helsinginsanomat01-29-02"/>
+      <article refid="reuters01-21-02"/>
+      <article refid="thenation12-13-01"/>
+      <article refid="miamiherald12-13-01"/>
+      <article refid="ghanaianchronicle12-11-01"/>
+      <article refid="news24sa12-10-01"/>
+      <article refid="acis12-03-01"/>
+      <article refid="time12-03-01"/>
+      <article refid="penthouse11-01-01"/>
+      <article refid="dailytelegraph11-27-01"/>
+      <article refid="reuters11-26-01"/>
+      <article refid="bbcnews11-22-01"/>
+      <article refid="listener11-17-01"/>
+      <article refid="eastcapenews10-26-01"/>
+      <article refid="eastcapenews10-25-01"/>
+      <article refid="smh10-29-01"/>
+      <article refid="deseretnews10-06-01"/>
+
+      <thread id="Sweden">
+        <description>Sweden regulates male circumcision</description>
+        <article refid="sapa10-01-01"/>
+        <article refid="bbc10-01-01"/>
+        <article refid="svenskadagbladet10-01-01"/>
+        <article refid="radiosweden10-01-01"/>
+      </thread>
+
+      <article refid="medicalpost09-04-01"/>
+      <article refid="eastcapenews09-04-01"/>
+      <article refid="eastcapenews09-01-01"/>
+      <article refid="thetelegraph08-25-01"/>
+      <article refid="helsinkinews08-24-01"/>
+
+      <thread id="UK-GMC">
+        <description>A case of disciplinary action by the UK General Medical
+          Council against two doctors</description>
+        <article refid="theindependent08-14-01"/>
+        <article refid="jewishchronicle08-18-01"/>
+        <article refid="bbcnews08-21-01"/>
+        <article refid="theindependent08-22-01"/>
+      </thread>
+
+      <article refid="helsinkinews08-21-01"/>
+      <article refid="reuters08-20-01"/>
+      <article refid="dailymail08-16-01"/>
+      <article refid="thetelegraph08-14-01"/>
+      <article refid="dailymail08-10-01"/>
+      <article refid="eastcapenews08-02-01"/>
+      <article refid="eastcapenews08-01-01"/>
+      <article refid="USAToday08-01-01"/>
+      <article refid="africaneye07-31-01"/>
+      <article refid="newmexican07-30-01"/>
+      <article refid="SABC07-30-01"/>
+      <article refid="wichitaeagle07-24-01"/>
+      <article refid="eastcapenews07-28-01"/>
+      <article refid="sowetan07-18-01"/>
+      <article refid="reuters07-13-01"/>
+      <article refid="wichitaeagle07-13-01"/>
+      <article refid="afr-eye07-12-01"/>
+      <article refid="sowetan07-11-01"/>
+      <article refid="news24_06-26-01"/>
+      <article refid="haaretz06-17-01"/>
+      <article refid="sacramento06-09-01"/>
+      <article refid="santacruzsentinel06-09-01"/>
+<!--  <article refid="AgenceFrancePresse06-08-01"/> -->
+      <article refid="reuters06-07-01"/>
+      <article refid="newyorkmagazine05-21-01"/>
+      <article refid="newcastlejournal04-27-01"/>
+      <article refid="theadvocate04-10-01"/>
+      <article refid="dagensnyheter03-16-01"/>
+      <article refid="ABCnews03-12-01"/>
+      <article refid="lubisi1"/>
+      <article refid="newsweek02-26-01"/>
+      <article refid="reuters02-26-01"/>
+      <article refid="reutershealth02-21-01"/>
+      <article refid="edmontonsun02-19-01"/>
+      <article refid="nationalpost02-12-01"/>
+      <article refid="aftonbladet02-09-01"/>
+      <article refid="pioneerplanet02-01-01"/>
+      <article refid="morningherald01-27-01"/>
+
+      <thread id="MatthewPrice">
+        <description>The Matthew Price case in New Jersey</description>
+        <article refid="star-ledger01-25-01"/>
+        <article refid="courier-news01-25-01"/>
+        <article refid="star-ledger12-05-00"/>
+        <article refid="courier-news12-05-00"/>
+        <article refid="star-ledger12-03-00"/>
+        <article refid="courier-news12-03-00"/>
+        <article refid="star-ledger1"/>
+        <article refid="courier-news1"/>
+      </thread>
+
+      <article refid="ION01-24-01"/>
+      <article refid="nationalpost01-17-01"/>
+      <article refid="thepress01-13-01"/>
+      <article refid="thepost01-12-01"/>
+      <article refid="medicalpost01-09-01"/>
+      <article refid="patriotledger01-05-01"/>
+      <article refid="sun-herald12-31-00"/>
+      <article refid="wsj12-28-00"/>
+      <article refid="nypost12-23-00"/>
+      <article refid="suntimesza12-17-00"/>
+      <article refid="nairobi12-18-00"/>
+      <article refid="jerusalempost12-13-00"/>
+
+      <thread id="Symposium6">
+        <description>The Sixth International Symposium on Sexual Mutilations
+        in Sydney, Australia, 7&amp;ndash;9 December 2000</description>
+        <article refid="ABCNews12-10-00"/>
+        <article refid="timesindia12-8-2000"/>
+        <article refid="theage12-7-00"/>
+        <article refid="nocirc12-7-00"/>
+      </thread>
+
+      <article refid="citypress11-25-2000"/>
+      <article refid="jerusalempost11-09-2000"/>
+      <article refid="BMJ1"/>
+      <article refid="times1"/>
+      <article refid="beaconjournal9-12-2000"/>
+      <article refid="dailycamera1"/>
+      <article refid="betamethasone2"/>
+      <article refid="jpost1"/>
+      <article refid="kenya1"/>
+      <article refid="ponsky2"/>
+      <article refid="talan1"/>
+      <article refid="sundaylife1"/>
+      <article refid="manitoba1"/>
+      <article refid="bbcnews06-30-00"/>
+      <article refid="ankara1"/>
+      <article refid="guardian28may2000"/>
+      <article refid="boulware1"/>
+      <article refid="medpost1"/>
+      <article refid="staph1"/>
+      <article refid="millhollon1"/>
+      <article refid="2000.03.08_Sweet"/>
+      <article refid="2000.01_Israel"/>
+      <article refid="theguardian1"/>
+      <article refid="perth1"/>
+      <article refid="1999.11.26_Guardian"/>
+      <article refid="1999-10_Intact"/>
+      <article refid="1999-03-16-LeeHuang"/>
+      <article refid="sundaytimes1999-03-14"/>
+
+      <thread id="AAP1999">
+        <description>American Academy of Pediatrics releases new
+          policy statement on circumcision (March 1, 1999)</description>
+        <article refid="1999.03_AMN"/>
+      </thread>
+
+      <article refid="1998.12.04UTI"/>
+      <article refid="dailytelegraph1998-11-27"/>
+      <article refid="evansdeath"/>
+      <article refid="menshealth199807"/>
+      <article refid="clitoris"/>
+      <article refid="1998.07.13_Symposium"/>
+      <article refid="1998.06_USNews"/>
+      <article refid="1998.04_Icon"/>
+      <article refid="1998.03.23_NYTimesFGM"/>
+      <article refid="1998.03_Cockburn"/>
+      <article refid="1998.03_SexHealth"/>
+
+      <thread id="Egypt">
+        <description>FGM in Egypt</description>
+<!--    <article refid="1998.01.06_Egypt"/> -->
+        <article refid="1997.12.29_Egypt"/>
+        <article refid="1997-06-24_EgyptFGM"/>
+        <article refid="1997-06-21_EgyptFGM"/>
+      </thread>
+
+      <article refid="1997.12.23_Lander/"/>
+      <article refid="1997.12.22_PhysiciansWeekly"/>
+
+      <thread id="Canada">
+        <description>Recent developments in Canada!:</description>
+        <article refid="ottawacitizen1997-10-22"/>
+        <article refid="ottawacitizen1997-10-21"/>
+        <article refid="1997.11.17_Alberta"/>
+        <article refid="ottawacitizen10-17-97"/>
+        <article refid="1997.10.18_OttawaCitizen"/>
+      </thread>
+
+<!-- removed due to copyright complaint from AFP -->
+<!--  <article refid="1997.10.08_Australia"/> -->
+
+      <article refid="1997.10.04_Herald"/>
+      <article refid="Mothering1997"/>
+      <article refid="aukofer"/>
+      <article refid="1997.05.19_StarTribune"/>
+      <article refid="1997.05.13_dpa"/>
+      <article refid="1997.05.02_Pearce"/>
+      <article refid="1997.04.01_AMA"/>
+      <article refid="FDA"/>
+      <article refid="1997-01-02MaineTimes"/>
+      <article refid="1996-12-28NYT"/>
+      <article refid="1996.12.16_Australia"/>
+      <article refid="1996.12.05_StPaul"/>
+      <article refid="1996.12.02_AMNa"/>
+      <article refid="1996.12.02_AMNb"/>
+      <article refid="1996.11.29_NM"/>
+      <article refid="1996.11.27_UKNursingTimes"/>
+      <article refid="1996.11.19_UPI"/>
+      <article refid="denverwestword199611"/>
+      <article refid="1996.11.14_Casco"/>
+      <article refid="1996.11_Mens"/>
+      <article refid="1996.10.30_Turner"/>
+      <article refid="1996.10.28_Chicago"/>
+      <article refid="1996.10.28_AMN"/>
+      <article refid="1996.10.12_FGM-ban"/>
+      <article refid="1996-10-11Forward"/>
+      <article refid="1996.09.24_CaliforniaFGM"/>
+      <article refid="1996.09.14_SouthAfrica"/>
+      <article refid="1996.09.13_SeattleTimes"/>
+      <article refid="1996.09.11_NewYorkTimesFGM"/>
+<!-- removed by request of the victim
+      <article refid="1996.09.06_AlabamaWrongful"/>
+-->
+      <article refid="1996.08_WholeLifeTimes"/>
+      <article refid="1996.08_Penthouse"/>
+      <article refid="1996.08.31_Guardian"/>
+      <article refid="1996.08.25_EgyptFGM"/>
+      <article refid="1996.08.08_NewYorkTimesEgyptFGM"/>
+      <article refid="1996.08.07_ColumbusAlive"/>
+
+      <thread id="SouthAfrica2">
+        <description>More from South Africa:</description>
+        <article refid="1996-08-01SouthAfrica"/>
+        <article refid="1996-07-31SouthAfrica"/>
+        <article refid="1996-07-23SouthAfrica"/>
+        <article refid="1996-07-22SouthAfrica"/>
+        <article refid="1996-07-19SouthAfrica"/>
+      </thread>
+
+      <article refid="1996-07-23SouthAfricaEditorial"/>
+      <article refid="1996.07.16_ColumbusDispatch"/>
+      <article refid="1996-07-15Egypt"/>
+      <article refid="1996-07-14Egypt"/>
+      <article refid="1996-06-18BuffaloNews"/>
+      <article refid="1996.06.14_FGM"/>
+      <article refid="1996.06.13_AP"/>
+      <article refid="1996.06.08_BismarckTribune"/>
+      <article refid="1996.06.07_FargoForum"/>
+      <article refid="1996-06-04MiamiHerald"/>
+      <article refid="1996.05.29_NewYorkTimes"/>
+      <article refid="1996.05.29_Brisbane_ACP"/>
+      <article refid="1996.05.28_WallStreetJournal"/>
+      <article refid="1996.05.25_NewYorkTimes/"/>
+      <article refid="1996.05.02_unkindest-cut"/>
+      <article refid="1996.05.07_pros-cons"/>
+      <article refid="1996.05.07_dermagraft"/>
+      <article refid="1996.04.26_WorldMedAssoc"/>
+      <article refid="1996.03.13_Australia"/>
+      <article refid="1996.02.23_Oz"/>
+      <article refid="1995.11.30_NYC_lawsuit"/>
+      <article refid="1995.11.26_MontrealLaPresse"/>
+      <article refid="1995.11.22_Mohel-lawsuit"/>
+      <article refid="1995.10.12_AAP-convention"/>
+      <article refid="1995.09.23_BMJ-Ch4"/>
+      <article refid="1995.09.11_TorontoStar"/>
+      <article refid="1995.08.08_Sweet"/>
+      <article refid="1995.07.28_HoustonChronicle"/>
+      <article refid="vancouversun04-10-95"/>
+      <article refid="independentmagazine08-20-94"/>
+<!-- removed by request    <article refid="theindependent05-22-94"/> -->
+      <article refid="1993.06.21_death"/>
+      <article refid="1993.01.29_DenverPost"/>
+      <article refid="1992.07.10_boy-dies"/>
+      <article refid="fultoncountydailyreport03-13-91"/>
+      <article refid="1991.03.12_Atlanta_lawsuit"/>
+      <article refid="1990.08.19_Turkey"/>
+      <article refid="1989.06.08_MedicalTribune"/>
+      <article refid="bostonglobe06-22-87"/>
+      <article refid="sfexaminer11-28-86"/>
+      <article refid="1986.05.28_lawsuit"/>
+      <article refid="desmoinesregister11-20-82"/>
+      <article refid="time1981-08-31"/>
+      <article refid="nytimes1975-11-02"/>
+      <article refid="leaderpost11-01-75"/>
+      <article refid="1966.07_Foley"/>
+      <article refid="medjaust04-25-53"/>
+      <article refid="nytimes1858-04-23" />
+      <article refid="nytimes1856-12-16" />
+    </div>
+    <hr />
+
+    <p><a id="cin" name="cin"></a> <a href="cin/"><span
+    class="CIN">Circumcision Information Network</span></a><br />
+    A weekly news bulletin compiled by Richard Angell, Jun 1994
+    - Jul 1996</p>
+    <hr />
+
+    <small>(File generated <timestamp/>)</small>
+
+    <p align="center"><a href="/">Return to Home Page</a></p>
+
+    <p><tt><page-url/></tt></p>
+  </body>
+
+</layout>

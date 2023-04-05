@@ -1,0 +1,6 @@
+Redirect /library/phimosis/ http://www.cirp.org/library/treatment/phimosis/
+Redirect /library/phimosis http://www.cirp.org/library/treatment/phimosis/
+Redirect /library/complication http://www.cirp.org/library/complications/
+Redirect /library/sex http://www.cirp.org/library/sex_function/
+Redirect /library/statement http://www.cirp.org/library/statements/
+Redirect /library/treatments http://www.cirp.org/library/treatment/

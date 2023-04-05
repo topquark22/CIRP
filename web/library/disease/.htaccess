@@ -1,0 +1,9 @@
+Redirect /library/disease/cervical-cancer http://www.cirp.org/library/disease/cancer
+Redirect /library/disease/penile-cancer http://www.cirp.org/library/disease/cancer
+Redirect /library/disease/hygiene/smegma2 http://www.cirp.org/library/normal/wright1/
+Redirect /library/disease/hygiene/smegma1 http://www.foreskin.org/smegma.htm
+Redirect /library/disease/winberg-bollgren2 http://www.cirp.org/library/general/winberg-bollgren2
+Redirect /library/disease/general http://www.cirp.org/library/disease/
+Redirect /library/disease/hygiene http://www.cirp.org/library/hygiene
+Redirect /library/disease/uti http://www.cirp.org/library/disease/UTI
+Redirect /library/disease/hiv http://www.cirp.org/library/disease/HIV

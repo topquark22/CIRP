@@ -1,0 +1,59 @@
+body
+{
+background-color: white;
+color: black;
+}
+table
+{
+font-family: arial, verdana, helvetica, sans-serif;
+font-size: 10pt;
+}
+table.threadTable
+{
+border: 1px solid black;
+background-color: #ccf;
+}
+h2
+{
+color: navy;
+font-size: 18pt;
+}
+h4
+{
+color: brown;
+}
+p.1
+{
+font-family: arial, helvetica, sans-serif;
+font-size: 18pt;
+}
+p.2
+{
+font-family: arial, helvetica, sans-serif;
+font-size: 11pt;
+}
+p.cirp
+{
+font-weight: bold;
+color: navy;
+}
+p.navlink
+{
+text-align: center;
+}
+span.yellow
+{
+background-color: #ff9;
+}
+p.library
+{
+font-size: 13pt;
+text-align: center;
+font-family: "times new roman", times, serif;
+font-weight: bold;
+color: maroon;
+}
+span.sclibrary
+{
+font-size: 10pt;
+}

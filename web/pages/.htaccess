@@ -1,0 +1,5 @@
+Redirect /pages/nocirc.html http://www.cirp.org/
+Redirect /pages/index.html http://www.cirp.org/
+Redirect /pages/female.html http://www.cirp.org/pages/female/
+Redirect /pages/introduction.html http://www.cirp.org/
+Redirect /pages/restore.htm http://www.cirp.org/pages/restore.html

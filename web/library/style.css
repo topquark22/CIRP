@@ -1,0 +1,55 @@
+body
+{
+background-color: white;
+color: black;
+}
+div.corpus
+{
+margin-left: 10%;
+margin-right: 10%;
+}
+p.text1
+{
+text-align: justify;
+}
+p.text2
+{
+text-indent: 2em;
+text-align: justify;
+}
+p.cirp
+{
+font-weight: bold;
+color: navy;
+margin-left: 0.8in;
+margin-right: 0.8in;
+border: double;
+padding: 10px;
+}
+p.navlink
+{
+text-align: center;
+}
+ol
+{
+font-size: 10.5pt;
+}
+sup
+{
+font-size: 8pt;
+}
+span.yellow
+{
+background-color: #ff9;
+}
+p.library
+{
+font-size: 13pt;
+text-align: center;
+font-family: "times new roman", times, serif;
+font-weight: bold;
+}
+span.sclibrary
+{
+font-size: 8.45pt;
+}

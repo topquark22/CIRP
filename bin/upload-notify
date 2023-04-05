@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# notify users about an upload
+#
+# input: the logfile
+
+USERS="gtf iconbuster@earthlink.net"
+TEMPFILE=/tmp/upload.notify.$$
+
+grep -v '/$' | grep -v '/.gin$' | sed 's/^gtar: //' > "$TEMPFILE"
+
+if [ -s "$TEMPFILE" ]; then
+  mail -s "CIRP update log `date`" $USERS < "$TEMPFILE"
+fi
+
+rm -f "$TEMPFILE"

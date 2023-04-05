@@ -1,0 +1,5 @@
+Redirect /library/statistics/bollinger3/ http://www.cirp.org/library/statistics/bollinger2003/
+Redirect /library/statistics/bollinger3 http://www.cirp.org/library/statistics/bollinger2003/
+Redirect /library/statistics/bollinger2001/ http://www.cirp.org/library/statistics/bollinger2003/
+Redirect /library/statistics/bollinger2001 http://www.cirp.org/library/statistics/bollinger2003/
+Redirect /library/statistics/usa http://www.cirp.org/library/statistics/USA/

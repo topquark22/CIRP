@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+
+<project name="CIRP" default="build">
+
+  <property name="distdir" location="dist"/>
+  <property name="tempdir" location="tmp"/>
+  <property name="tidy.sh" location="bin/tidy.sh"/>
+
+  <path id="classpath.xslt">
+    <pathelement location="lib/saxon7.jar"/>
+  </path>
+
+  <target name="build" depends="copy-static, make-news" />
+
+  <target name="copy-static">
+    <mkdir dir="${distdir}"/>
+    <copy todir="${distdir}" preservelastmodified="true"
+          verbose="true" overwrite="false">
+      <fileset dir="web">
+<!-- Exclude all XML source files such as News index.xml etc. -->
+        <exclude name="**/*.xml"/>
+<!-- TODO: Use a different extension for those files          -->
+        <exclude name="**/*~"/>
+        <exclude name="**/*.htm"/>
+        <exclude name="**/*.bak"/>
+        <exclude name="**/*.CKP"/>
+        <exclude name="**/d"/>
+        <exclude name="**/i"/>
+        <exclude name="**/x"/>
+        <exclude name="**/index0.html"/>
+        <exclude name="**/index2.html"/>
+        <exclude name="**/*.desc"/>
+        <exclude name="**/*.pgp"/>
+        <exclude name="**/*.orig"/>
+        <exclude name="**/*.rej"/>
+        <exclude name="**/*.old"/>
+        <exclude name="**/*.marks"/>
+        <exclude name="**/.nfs*"/>
+        <exclude name="**/.xvpics"/>
+        <exclude name="**/TODO"/>
+        <exclude name="**/*.tmp"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="-check-news-uptodate">
+    <uptodate property="news.uptodate" targetfile="${distdir}/news/index.html">
+      <srcfiles dir="src/news" includes="*.xml"/>
+    </uptodate>
+  </target>
+
+  <target name="make-news" depends="-check-news-uptodate" unless="news.uptodate">
+    <dependset>
+      <srcfilelist dir="src/news" files="*.xml"/>
+      <targetfilelist dir="${distdir}/news" files="index.html"/>
+    </dependset>
+    <xslt style="news.xsl" processor="trax" basedir="src/news"
+           includes="index.xml" destdir="${distdir}/news">
+       <classpath refid="classpath.xslt"/>
+    </xslt>
+    <!-- tidy the file - ->
+    <exec executable="${tidy.sh}" dir="${distdir}/news"
+          input="${tempdir}/index.html"
+          output="${distdir}/news/index.html"
+          failonerror="true"
+          errorproperty="tidy.errors"/>
+    <echo message="${tidy.errors}"/>
+    -->
+  </target>
+
+  <target name="clean">
+    <delete dir="${tempdir}"/>
+  </target>
+
+  <!-- Warning: distclean will remove the main upload directory! -->
+  <target name="distclean" depends="clean">
+    <delete dir="${distdir}"/>
+  </target>
+
+</project>
